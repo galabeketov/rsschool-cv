@@ -1,0 +1,74 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header p {
+    margin-top: 5px;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Add some spacing to the skills list */
+  #skills ul {
+    padding-left: 20px;
+  }
+  
+  /* Style the course logo */
+  footer img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  /* Make the links in the footer look like buttons */
+  footer a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ecf0f1;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  footer a:hover {
+    background-color: #34495e;
+  }
+  
